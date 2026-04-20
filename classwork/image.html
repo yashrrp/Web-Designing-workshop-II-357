@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Image Switcher</title>
+</head>
+<body>
+
+<img id="myImage" src="adhapunk.jpeg" width="300">
+
+<br><br>
+
+<button onclick="switchImage()">Switch Image</button>
+
+<script>
+function switchImage() {
+    let img = document.getElementById("myImage");
+
+    if (img.src.includes("adhapunk.jpeg")) {
+        img.src = "mythical-dragon-beast-anime-style.jpg";
+    } else {
+        img.src = "adhapunk.jpeg";
+    }
+}
+</script>
+
+</body>
+</html>
