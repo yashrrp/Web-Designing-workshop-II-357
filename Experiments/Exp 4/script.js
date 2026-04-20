@@ -1,4 +1,4 @@
-function calculateResult() {
+ function calculateResult() {
 // Step 1: Get number of subjects
 
     let numSubjects = parseInt(document.getElementById("numSubjects").value);
